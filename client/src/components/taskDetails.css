@@ -1,0 +1,126 @@
+.task-container,
+h2,
+h3 {
+    padding: 20px;
+}
+
+.task-content,
+.notes {
+    border-top: 2px solid #3e4a61;
+    border-bottom: 2px solid #3e4a61;
+}
+
+.notes {
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+}
+
+.note-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.note-container {
+    margin-top: 20px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e9e9;
+    height: 420px;
+}
+
+.remove-task{
+    margin-top: 14px;
+}
+
+.button-4 {
+    margin: 10px;
+    border:none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color:#265df2;
+    padding: 8px;
+}
+
+.assignForm-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-2 {
+    margin: 5px;
+    width: 20px;
+}
+
+
+
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+
+/* Task Form */
+
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.input {
+    width: 80%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 6px;
+    padding: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+}

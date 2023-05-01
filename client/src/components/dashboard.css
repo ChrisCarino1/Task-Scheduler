@@ -1,0 +1,99 @@
+
+/* Shared style */
+.content-container{
+    display: flex;
+    justify-content: center;
+    background-color: #81b4ee;
+    height: 100vh;
+}
+
+.container {
+    margin: 50px 100px 10px 100px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 700px;
+    width: 600px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+tr:hover {
+    background: #ddd;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 550px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.content-table thead tr {
+    background-color: #023d6b;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #023d6b;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* USER DASHBAORD STYLES */
+.bg-color{
+    background-color: #81b4ee;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.allTask-bg{
+    /* height: 400px; */
+}
+
+/* Manager Dashboard */
+.manager-bg {
+    background-color: #81b4ee;
+    height: 1000px;
+}
+
+/* < !-- HTML !--><button class="button-4"role="button">Button 4</button> */
+/* CSS */
+.button-5 {
+    width: 120px;
+    height: 40px;
+    border:none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color:#265df2;
+    padding: 8px;
+}
+
+.button-5:hover {
+    background-color: #2553d3;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
